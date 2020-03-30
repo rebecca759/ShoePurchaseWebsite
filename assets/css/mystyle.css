@@ -13,6 +13,7 @@
 .footer{
     background: #152F4F;
     color:white;
+    margin-top: 190px;
 }
     
 
@@ -38,4 +39,3 @@ li a:hover{
 .location i{
       font-size: 18px;
 }
-
