@@ -1,41 +1,104 @@
-.font-fam {
+body {
     font-family: 'Libre Franklin', sans-serif;
-}
-
-.title {
-    font-family: 'Pacifico', cursive;
 }
 
 .titles {
     font-family: 'Viga', sans-serif;
 }
 
+.title {
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+}
+
 .footer{
-    background: #152F4F;
+    background: #38393a;
     color:white;
-    margin-top: 190px;
+    font-family: sans-serif;
 }
-    
 
-li a{
-        transition: color .2s;
-
+.footer-icons {
+    font-size: 25px;
 }
-li a:hover{
-          text-decoration:none;
-          color:#4180CB;
-          }
 
-.about-company  i{
-     font-size: 25px;}
+.circle {
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    border-radius: 50%;
+    font-size: 40px;
+    color:#fff;
+    text-align: center;
+    background: rgb(209, 187, 202);
+  }
 
-.about-company  a{
-        transition: color .2s;
+  .shoe_collection {
+      height: 30vh;
+  }
+
+  .faq {
+      background-color: rgba(236, 219, 231, 0.829);
+      font-family: 'Work Sans', sans-serif;
+  }
+
+  .card-faq:hover {
+      background-color: rgb(247, 245, 246)
+  }
+
+.faq-icon {
+    padding-left: 180px;
 }
-.about-company a:hover{
-    color:#4180CB
+
+.btn:focus, .btn:active {
+    box-shadow: none;
 }
-  
-.location i{
-      font-size: 18px;
+
+.about {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.team-img {
+    height: 210px;
+    width: 210px;
+}
+
+.my-btn {
+    background-color: rgba(134, 110, 127, 0.829);
+    color: #fff;
+}
+
+.my-btn:hover {
+    background-color: rgba(134, 110, 127, 0.6); 
+    color: #fff;
+}
+
+.no-outline:focus, .no-outline:active {
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+
+.form-rounded {
+    border-radius: 1rem;
+    }
+
+::placeholder {
+    color: gray;
+    font-weight: bold;
+}
+
+.about-icons {
+   background-color: rgba(134, 110, 127, 0.829);
+   color: white;
+   font-size: 20px;
+}
+
+.map {
+    height: 58vh;
 }
