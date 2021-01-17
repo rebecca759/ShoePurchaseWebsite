@@ -27,9 +27,9 @@ body {
     line-height: 150px;
     border-radius: 50%;
     font-size: 40px;
-    color:#fff;
     text-align: center;
-    background: rgb(209, 187, 202);
+    background: rgba(236, 219, 231, 0.829);
+    border: 1px solid rgb(182, 182, 182);
   }
 
   .shoe_collection {
@@ -102,3 +102,4 @@ body {
 .map {
     height: 58vh;
 }
+
