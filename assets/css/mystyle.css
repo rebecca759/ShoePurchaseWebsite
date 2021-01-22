@@ -32,18 +32,18 @@ body {
     border: 1px solid rgb(182, 182, 182);
   }
 
-  .shoe_collection {
-      height: 30vh;
-  }
+.shoe_collection {
+    height: 30vh;
+}
 
-  .faq {
-      background-color: rgba(236, 219, 231, 0.829);
-      font-family: 'Work Sans', sans-serif;
-  }
+.faq {
+    background-color: rgba(236, 219, 231, 0.829);
+    font-family: 'Work Sans', sans-serif;
+}
 
-  .card-faq:hover {
-      background-color: rgb(247, 245, 246)
-  }
+.card-faq:hover {
+    background-color: rgb(247, 245, 246)
+}
 
 .faq-icon {
     padding-left: 180px;
